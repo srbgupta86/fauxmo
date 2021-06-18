@@ -3,8 +3,7 @@
 import json
 
 import pytest
-
-from fauxmo.plugins.simplehttpplugin import SimpleHTTPPlugin
+import tanuj
 
 
 def test_simplehttpplugin(simplehttpplugin_target: pytest.fixture) -> None:
